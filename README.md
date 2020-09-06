@@ -1,22 +1,24 @@
 # Julia API for Python Keyring API  
 
-I admittedly do not have the requisite skills or time to implement
-something like <https://github.com/jaraco/keyring> or
-<https://github.com/r-lib/keyring> in native Julia myself.  
-(I know not C)
+I admittedly do not yet have the requisite skills or time to implement
+a native keyring package such as those that exist in [python](https://github.com/jaraco/keyring) or
+[R](https://github.com/r-lib/keyring).
 
 HOWEVER, I believe this is something that should:  
 
 1. be done eventually
 2. at least be done by calling, say, python to make use of the keyring API there
 
-## Jon this is weird why the hecc are you doing this?  Aren't there better options?
+## Q: This is tacky. Aren't there better options?
 
-1. No :)
+1. I don't know of any :)
 2. I'd like to learn some Julia!  
 3. I'd like to raise awareness that this package is sorely missing.
 
-## Julia packages this package relies on
+## Julia dependencies
 
-ProjectFlow  
-PyCall
+[PyCall](https://github.com/JuliaPy/PyCall.jl)
+
+## Python dependencies
+
+[keyring](https://github.com/jaraco/keyring)
