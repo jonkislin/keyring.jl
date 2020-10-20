@@ -18,4 +18,4 @@ setup_python()
 using PyCall
 
 # The most basic MVP
-keyring = pyimport("keyring")
+keyring = pyimport("keyring");
